@@ -1,0 +1,14 @@
+.basketIcon {
+    width: 22px;
+    height: 20px;
+    color: #838383;
+}
+
+.button {
+    border:none;
+    width: 25px;
+    height: 25px;
+    cursor: pointer;
+    background-color: #EAEAEA;
+    padding:2px;
+}

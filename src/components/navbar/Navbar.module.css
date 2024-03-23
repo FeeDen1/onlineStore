@@ -1,0 +1,20 @@
+.logoName {
+    position: relative;
+    width: 85px;
+    height: 30px;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    color: #101010;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    width: 1135px;
+    height: 60px;
+    position: relative;
+}
