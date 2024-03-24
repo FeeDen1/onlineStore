@@ -1,6 +1,25 @@
 .heartIcon {
-    margin-right:10px;
     width: 22px;
     height: 20px;
     color: #838383
+}
+
+.wrapper {
+    display: inline-block;
+    position: relative;
+}
+
+.itemCount {
+    position: absolute;
+    top: -5px;
+    right: -7px;
+    background-color: orange;
+    color: white;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    padding: 1px;
+    text-align: center;
+    vertical-align: center;
+    font-size: 12px;
 }

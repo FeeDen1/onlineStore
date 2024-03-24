@@ -6,15 +6,23 @@
     font-size: 25px;
     line-height: 30px;
     color: #101010;
-    margin: 0;
-    padding: 0;
+    border:none;
+    background-color: #EAEAEA;
+    cursor: pointer;
 }
+
 
 .navbar {
     align-items: center;
     justify-content: space-between;
     display: flex;
-    width: 1135px;
+    max-width: 1110px;
     height: 60px;
     position: relative;
+}
+
+.svgCont {
+    display: flex;
+    gap: 20px;
+    align-items: center;
 }

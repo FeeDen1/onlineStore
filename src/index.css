@@ -17,6 +17,7 @@ body {
   font-family: 'Montserrat';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  overflow-y: auto;
 }
 
 code {
@@ -24,4 +25,7 @@ code {
     monospace;
 }
 
-
+p {
+  padding: 0;
+  margin: 0;
+}

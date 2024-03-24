@@ -1,9 +1,15 @@
 import React, {FC} from 'react';
 
-const MainPage:FC = () => {
+import ItemList from "../components/ItemList/ItemList";
+import {headphones, wirelessHeadphones} from "../utils/headphoneArr";
+import Footer from "../components/footer/Footer";
+
+const MainPage: FC = () => {
     return (
         <div>
-            ПУПУПУПУ
+            <ItemList title='Наушники' items={headphones}/>
+            <ItemList title='Беспроводные наушники' items={wirelessHeadphones}/>
+            <Footer/>
         </div>
     );
 };
