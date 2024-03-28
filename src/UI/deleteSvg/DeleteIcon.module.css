@@ -1,0 +1,10 @@
+.deleteIcon {
+    width:20px;
+    height: 17px;
+}
+
+button {
+    background-color: #FFFFFF;
+    border: none;
+    align-self: flex-end;
+}

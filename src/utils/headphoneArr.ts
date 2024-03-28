@@ -1,4 +1,6 @@
 import {IItem} from "../models/IItem";
+
+
 export const headphones:IItem[] = [
     {
         id:1,
@@ -7,6 +9,7 @@ export const headphones:IItem[] = [
         price: 2927,
         discount: 3527,
         rate: 4.7,
+        quantity: 0,
     },
     {
         id:2,
@@ -14,6 +17,7 @@ export const headphones:IItem[] = [
         title: 'Apple EarPods',
         price: 2327,
         rate: 4.5,
+        quantity: 0,
     },
     {
         id:3,
@@ -21,6 +25,7 @@ export const headphones:IItem[] = [
         title: 'Apple EarPods',
         price: 2327,
         rate: 4.5,
+        quantity: 0,
     },
     {
         id:4,
@@ -28,6 +33,7 @@ export const headphones:IItem[] = [
         title: 'Apple BYZ S852I',
         price: 2927,
         rate: 4.7,
+        quantity: 0,
     },
     {
         id:5,
@@ -35,6 +41,7 @@ export const headphones:IItem[] = [
         title: 'Apple EarPods',
         price: 2327,
         rate: 4.5,
+        quantity: 0,
     },
     {
         id:6,
@@ -42,29 +49,37 @@ export const headphones:IItem[] = [
         title: 'Apple EarPods',
         price: 2327,
         rate: 4.5,
+        quantity: 0,
     },
 ]
 
 export const wirelessHeadphones:IItem[] = [
     {
-        id:1,
+        id:7,
         image: 'images/AppleAirPods.png',
         title: 'Apple AirPods',
         price: 9527,
         rate: 4.7,
+        quantity: 0,
     },
     {
-        id:2,
+        id:8,
         image: 'images/Gerlax.png',
         title: 'GERLAK GH-04',
         price: 6527,
         rate: 4.7,
+        quantity: 0,
     },
     {
-        id:3,
+        id:9,
         image: 'images/Borofone.png',
         title: 'BOROFONE BO4',
         price: 7527,
         rate: 4.7,
+        quantity: 0,
     },
+]
+
+export const allProducts:IItem[] = [
+    ...headphones, ...wirelessHeadphones
 ]

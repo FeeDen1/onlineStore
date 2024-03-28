@@ -23,6 +23,7 @@ const Footer:FC = () => {
                         <GlobalIcon/>
                         {langArr.map((lang) =>
                             <button
+                                key={lang}
                                 className={activeLang === lang ? cl.buttonActive : ''}
                                 onClick={() => setActiveLang(lang)}
                             >

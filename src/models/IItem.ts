@@ -4,5 +4,7 @@ export interface IItem {
     title: string;
     price: number;
     discount?: number;
+    quantity:number;
     rate: number;
 }
+

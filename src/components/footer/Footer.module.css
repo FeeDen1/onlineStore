@@ -12,12 +12,14 @@
 .footer {
     margin-left: 25px;
     margin-top: 30px;
-    max-width: 1110px;
+    width: 1110px;
     max-height: 150px;
     border-radius: 30px 30px 0 0;
     background-color: #FFF;
     box-shadow: 0 0 20px 0 #0000001A;
     overflow-y: hidden;
+    position: absolute;
+    top: 100%;
 }
 
 .wrapper {
