@@ -2,8 +2,6 @@ import React, {FC} from 'react';
 import ItemList from "../components/ItemList/ItemList";
 import {headphones, wirelessHeadphones} from "../utils/headphoneArr";
 
-
-
 const MainPage: FC = () => {
     return (
         <div>

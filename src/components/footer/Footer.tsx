@@ -4,6 +4,7 @@ import GlobalIcon from "../../UI/globalIcon/GlobalIcon";
 import VkIcon from "../../UI/vkIcon/VkIcon";
 import TelegramIcon from "../../UI/telegramIcon/TelegramIcon";
 import WhatsappIcon from "../../UI/whatsappIcon/WhatsappIcon";
+import {Link} from "react-router-dom";
 
 const Footer:FC = () => {
     const langArr: string[] = ['Каз', 'Рус', 'Eng']
@@ -13,9 +14,9 @@ const Footer:FC = () => {
             <div className={cl.wrapper}>
                 <p className={cl.logoName}>QPICK</p>
                 <div className={cl.links}>
-                    <p>Избранное</p>
-                    <p>Корзина</p>
-                    <p>Контакты</p>
+                    <Link to='/'>Избранное</Link>
+                    <Link to='/'>Корзина</Link>
+                    <Link to='/'>Контакты</Link>
                 </div>
                 <div className={cl.servAndLangCont}>
                     <p>Условия сервиса</p>

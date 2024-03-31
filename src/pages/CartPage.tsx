@@ -7,11 +7,11 @@ const CartPage: FC = () => {
     const [totalPrice, setTotalPrice] = useState(0)
     const {products} = useAppSelector(state => state.cart)
     useEffect(() => {
-        let sum = 0
+        let price = 0
         products.map((item) =>
-            sum += item.quantity * item.price
+            price += item.quantity * item.price
         )
-        setTotalPrice(sum)
+        setTotalPrice(price)
     }, [products]);
     return (
         <div style={{marginLeft:'20px'}}>

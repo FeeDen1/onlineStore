@@ -11,8 +11,7 @@ interface SingleItemCartProps {
 }
 
 
-
-const SingleItemCart:FC<SingleItemCartProps> = ({item}) => {
+const SingleItemCart: FC<SingleItemCartProps> = ({item}) => {
     return (
         <div className={cl.wrapper}>
             <div className={cl.imgQuantityWrapper}>
@@ -29,16 +28,8 @@ const SingleItemCart:FC<SingleItemCartProps> = ({item}) => {
             </div>
             <div className={cl.deleteAndPrice}>
                 <DeleteIcon item={item}/>
-                {item.quantity !== undefined
-                    ?
-                    <p>{item.price * item.quantity} ₽</p>
-                    :
-                    <p>{item.price} ₽</p>
-                    }
-
+                <p>{item.price * item.quantity} ₽</p>
             </div>
-
-
         </div>
     );
 };
